@@ -1,0 +1,3 @@
+/* pyinstaller -F 打包时会读不到qss文件，故项目未用外部qss的方式。 */
+QPlainTextEdit { background: #ffffff } 
+QLabel{color:#000000;font-size:16px;}
