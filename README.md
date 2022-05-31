@@ -45,7 +45,6 @@ pip install pkg/PyAudio-0.2.11-cp39-cp39-win_amd64.whl
 ```
 python sr_viewer.py
 ```
-![](./ico/%E6%BC%94%E7%A4%BA.jpg)
 ## 打包成exe
 ```python
 pyinstaller.exe  -F -w  -i ico/record256.ico  -n 大胡子录屏  sr_viewer.py
