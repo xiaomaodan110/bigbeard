@@ -141,6 +141,7 @@ class MainWindow(QMainWindow):
         self.has_human_voice_group.addButton(has_human_voice_true, 1)
         self.has_human_voice_group.addButton(has_human_voice_false, 2)
         has_human_voice_false.setChecked(True)
+        has_human_voice_true.setCheckable(False)
         layout_record.addWidget(has_human_voice_true, *(6, 1))
         layout_record.addWidget(has_human_voice_false, *(6, 2))
 
