@@ -4,7 +4,7 @@ BigBeard(大胡子录屏)是基于GPL协议开源的录屏软件项目。软件�
 
 该软件产生于个人居家隔离时期。因游戏录屏时找不到一款免费纯净且简约的录屏软件, 故萌生出自己开发的想法。开发前后耗时共3天, 完成了测试v0.1版, 现阶段软件功能较少, Bug较多, 不跨平台, 只支持windows10, 不适合正式长期使用。
 
-其实严格来讲, BigBeard尚不能称之为一款软件, 现阶段只是个人练手性质的Demo, 并且个人水平有限, 也不擅长Python客户端开发, 代码较为冗杂混乱, 仅供大家批评交流使用, 同时欢迎大家参与。 
+严格来讲, BigBeard尚不能称之为一款软件, 现阶段只是个人练手性质的Demo, 并且个人水平有限, 也不擅长Python客户端开发, 代码较为冗杂混乱, 仅供大家批评交流使用, 同时欢迎大家参与。 
 
 ### 相关技术
 项目使用Python 3.9.1开发, 向下兼容到Python 3.7。
@@ -45,8 +45,7 @@ pip install pkg/PyAudio-0.2.11-cp39-cp39-win_amd64.whl
 ```
 python sr_viewer.py
 ```
-![](ico/%E6%BC%94%E7%A4%BA.jpg)
-
+![](https://github.com/xiaomaodan110/bigbeard/blob/main/ico/%E6%BC%94%E7%A4%BA.jpg)
 ## 打包成exe
 ```python
 pyinstaller.exe  -F -w  -i ico/record256.ico  -n 大胡子录屏  sr_viewer.py
@@ -60,7 +59,7 @@ pyinstaller.exe  -F -w  -i ico/record256.ico  -n 大胡子录屏  sr_viewer.py
 - [新增]显示存放视频文件的路径
 - [新增]可设置存放视频文件路径
 - [新增]可设置保存的视频格式,暂支持mp4和avi两种
-- [新增](Deprecated)可设置生成视频的帧率
+- [新增]可设置生成视频的帧率(Deprecated)
 - [重构]结束录制的功能
 - [新增]暂停录制的功能
 - [新增]绘制屏幕区域自定义录制的功能
